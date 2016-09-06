@@ -44,7 +44,7 @@ function parseCalendar(userid, authtoken) {
                 _event.summary = abrv ? abrv[1] : match[2];
             }
             if (match[5])
-                _event.place = match[5];
+                _event.location = match[5];
         }
     });
 
